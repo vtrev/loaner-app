@@ -24,6 +24,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
     </element>
